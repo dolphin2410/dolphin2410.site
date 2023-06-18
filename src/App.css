@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
   --box-side: max(min(40vh, 40vw), 225px)
 }
@@ -11,7 +12,8 @@
      -moz-user-select: none; /* Old versions of Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
           user-select: none;
-          cursor:pointer
+          cursor:pointer;
+          font-family: 'Roboto', sans-serif;
 }
 
 html {
